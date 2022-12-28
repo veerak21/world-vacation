@@ -1,0 +1,23 @@
+{
+  "name": "world-vacation",
+  "version": "1.0.0",
+  "description": "Project based on a traveler whom can choose what kind of weather they would and then pick a country which suits them best.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veerak21/world-vacation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/veerak21/world-vacation/issues"
+  },
+  "homepage": "https://github.com/veerak21/world-vacation#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
