@@ -12,28 +12,21 @@ The 'Reviews' page displays customer feedback.
 
 The styling for these pages and the searched items' display is by the Tailwind CSS framework. The project is powered by JavaScript.
 
-## Technologies used
-  HTML
-  Tailwind CSS
-  JavaScript
-  Server-side APIs
+## Technologies used:
+  HTML, 
+  Tailwind CSS, 
+  JavaScript, and
+  Server-side APIs.
 
 ## Project Contributors:
   Initial proposal & wireframes by Sakariya Adam.
 
-  Webpage Coding & Design: 
+  Webpage Coding & Design. Landing page by Veera Pagadala, About page by Veera Pagadala, Search page by Faduma Dahir, and Reviews page by Matteo Neri.
 
-    Landing page - Veera Pagadala
-    About page 	- Veera Pagadala
-    Search page	- Faduma Dahir
-    Reviews page - Matteo Neri
+  API Sourcing & Coding. Weather API sourced from https://openweathermap.org/api by Veera Pagadala. Demographic API by Sakariya Adam.
 
- API Sourcing & Coding
-
-    Weather API - Veera Pagadala
-    Demographic API - Sakariya Adam.
-
- ## Challenges
+   
+ ## Challenges:
    Identifying and applying the appropriate API for the project.
    Applying Tailwind CSS for the webpage design.
    Enabling JavaScript-based logic.
@@ -44,12 +37,18 @@ The styling for these pages and the searched items' display is by the Tailwind C
 
 
 
+   Landing page:
+
+
    ![screenshot-of-applicaton](./assets/images/page1_screenshot.png)
 
 
 
 
 
+
+
+   About page:
 
   
    ![screenshot-of-applicaton](./assets/images/page2_screenshot.png)
