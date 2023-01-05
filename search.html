@@ -5,49 +5,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Search Page</title>
-    <link rel="stylesheet" href="./style.css"/>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet" 
+      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.4.6/tailwind.min.css" 
+      integrity="sha256-CAI/7ThhltsmP2L2zKBYa7FknB3ZwFbD0nqL8FCdxdc=" 
+      crossorigin="anonymous" />
+    <link rel="stylesheet" href="./dist/output.css"/>
     
-
+  
 </head>
 
 <body>
-    <div
-        class="w-full h-screen bg-reflect bg-center bg-cover bg-scroll"
-        style="background-image: url('./assets/images/background.jpg')">
+  <div class="w-full h-screen bg-reflect bg-center bg-cover bg-scroll"
+      style="background-image: url('./assets/images/background.jpg')"> 
 
+      <nav class="flex flex-wrap md:flex-col">
+          <div class="absolute left-20 top-10 h-40">
+              <a href="./index.html" ><img src="./assets/images/logo.jpg" ></a>
+        </div>
         <div class="absolute top-20 right-20 h-16 text-xl font-bold ">
-            <a class="mr-10 rounded-md border-2 text-center px-10 h-14 bg-sky-500 hover:bg-gradient-to-b from-sky-100 to-blue-500" id="about" href="./about.html">About</a>
-            <a class="mr-10 rounded-md border-2 text-center px-10 h-14 bg-sky-500 hover:bg-gradient-to-b from-sky-100 to-blue-500" id="search" href="./search.html" target="_blank">Search</a>
-            <a class="mr-10 rounded-md border-2 text-center px-10 h-14 bg-sky-500 hover:bg-gradient-to-b from-sky-100 to-blue-500" id="reviews" href="./reviews.html" target="_blank">Reviews</a>
-          
+          <a class="mr-10 rounded-md border-2 text-center px-10 h-14 bg-sky-500 hover:bg-gradient-to-b from-sky-100 to-blue-500" id="about" href="./about.html">About</a>
+          <a class="mr-10 rounded-md border-2 text-center px-10 h-14 bg-sky-500 hover:bg-gradient-to-b from-sky-100 to-blue-500" id="search" href="./search.html" target="_blank">Search</a>
+          <a class="mr-10 rounded-md border-2 text-center px-10 h-14 bg-sky-500 hover:bg-gradient-to-b from-sky-100 to-blue-500" id="reviews" href="./reviews.html" target="_blank">Reviews</a>
+        
+        </div>
+        
+       <div class="search box flex justify-center h-screen item-center"> 
+          <button type="button" class="inline-block " id="search-btn" >
+
+
+                <input type="text"
+                placeholder="Search Holiday Destination Here" class=" bg-slate-300 placeholder:text-slate-800-font-thin px-2 py-3" id="search-city">
+
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-9 inline h-8 " >
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                </svg>
+
+          </button>
+
+          <div id="weather-content">
+
+
           </div>
-         <div class="search box flex justify-center h-screen item-center"> 
-            <button type="button" class="inline-block
-            ">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 inline h-8" >
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
-                  </svg>
 
-                  <input type="text"
-                  placeholder="Search Holiday Destination Here" class=" text-5xl
-                  ">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-9 inline h-8">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 18.75a6 6 0 006-6v-1.5m-6 7.5a6 6 0 01-6-6v-1.5m6 7.5v3.75m-3.75 0h7.5M12 15.75a3 3 0 01-3-3V4.5a3 3 0 116 0v8.25a3 3 0 01-3 3z" />
-                  </svg>
-                  
+          <div id="seven-day" class=" pb-2 pt1">
+            <div class="bg-slate-300 ml-2 bg-gradient-to-b">
 
-            </button>
+            </div>  
 
-         </div>
-    
+          </div>
 
-          
-
-       
-    </div>
-
-
+       </div>
+       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+       crossorigin="anonymous"></script>
+     
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+     
+     <script src="./script.js"></script>
     
 </body>
 </html>
