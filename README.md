@@ -66,6 +66,15 @@ The styling for these pages and the searched items' display is by the Tailwind C
 
    ![screenshot-of-applicaton](./assets/images/page3_screenshot.png)
 
+   
+
+
+   ## Powerpoint presentation:
+
+   Click [World Vacation Presentation](https://1drv.ms/p/s!AkK85uwH_WW6gfklCJrXnN-WqsTJHA?e=DoGFTv)
+
+       
+
     
 
 
