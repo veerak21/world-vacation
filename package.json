@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/veerak21/world-vacation#readme",
   "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss-cli": "^10.1.0",
     "tailwindcss": "^3.2.4"
   },
   "dependencies": {
