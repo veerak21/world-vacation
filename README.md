@@ -58,6 +58,14 @@ The styling for these pages and the searched items' display is by the Tailwind C
   
    ![screenshot-of-applicaton](./assets/images/page2_screenshot.png)
 
+
+
+
+   Search page:
+
+
+   ![screenshot-of-applicaton](./assets/images/page3_screenshot.png)
+
     
 
 
